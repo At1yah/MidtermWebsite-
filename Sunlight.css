@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+.container {
+    width: auto;
+    max-height: 800px;
+    margin: 0px;
+    background-color: #b6fad1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.Webpage1 {
+  position: relative;
+  max-width: 100%;
+    max-height: auto;
+  }
+.lines { 
+  position: relative;
+        width: 400px; 
+        height: 2px; 
+        background: #81CB8B60; 
+        top: 50%; 
+        left: 0%; 
+        right: 50%;
+        transform: translate(-0%, -50%); 
+
+    } 
+
+    .lines::before { 
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        background: green; 
+        animation: animate 5s linear infinite; 
+    } 
+
+    .lines1 { 
+  display: flex;
+        width: 400px; 
+        height: 2px; 
+        background: #b6fad1; 
+        position: relative; 
+        top: 50%; 
+        left: 0%; 
+        right: 50%;
+        transform: translate(50%, -600px); 
+    } 
+
+    .lines1::before { 
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        background: green; 
+        animation: animate 5s linear infinite; 
+    } 
+  
+  .lines2 { 
+  display: flex;
+        width: 400px; 
+        height: 2px; 
+        background: #b6fad1; 
+        position: relative; 
+        top: 0%; 
+        left: 0%; 
+        right: 50%;
+        transform: translate(-30%, -30px); 
+    } 
+
+    .lines2::before { 
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        background: green; 
+        animation: animate 5s linear infinite; 
+    } 
+
+    @keyframes animate { 
+        0% { 
+            left: 0; 
+        } 
+  
+        50% { 
+            left: 100%; 
+        } 
+  
+        0% { 
+            left: 0; 
+        } 
+
+

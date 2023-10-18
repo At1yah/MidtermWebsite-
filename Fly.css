@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, serif;
+    background-color: #f4f4f4;
+    size: 200;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+min-height: auto;  
+  margin: 0px;
+    background-color: black;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.background {
+    width: 100%;
+    display: inline-block;
+  position: relative;
+  max-width: auto;
+    max-height: auto;
+  }
+  .Swarm1{
+    width: 50%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+     animation: buzz 0.056s linear alternate infinite;
+
+  }
+
+  .Swarm2{
+    width: 50%;
+    top: -5%;
+    left: 30%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+  transform: rotate(180deg);
+    max-height: auto;
+     animation: buzz 0.08s linear alternate infinite;
+ }
+
+ .Swarm3{
+    width: 50%;
+    top: 0%;
+    left: 59%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+     animation: buzz 0.05s linear alternate infinite;
+ }
+
+ .Swarm4{
+    width: 50%;
+    top: 46%;
+    left: 55%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+     animation: buzz 0.08s linear alternate infinite;
+ }
+
+.Swarm5{
+    width: 50%;
+    top: 47%;
+    left: 22%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+    transform: rotate(90deg);
+     animation: buzz 0.07s linear alternate infinite;
+ }
+
+ .Swarm6{
+    width: 50%;
+    top: 48%;
+    left: -5%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+     animation: buzz 0.08s linear alternate infinite;
+ }
+
+  .Fly1{
+    width: 50%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+  animation: flyAround 7s linear infinite;
+
+  }
+
+  .Fly{
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+    animation: flyAround2 10s linear infinite;
+  }
+
+  .Fly2{
+    width: 100%;
+    top: 50%;
+    left: 60%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+    animation: flyAround2 5s linear infinite, flyVariation 2s linear infinite;
+  }
+
+  .Fly3{
+    width: 100%;
+    top: 50%;
+    left: 60%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+    animation: flyAround2 3.5s linear infinite;
+  }
+  .Fly4{
+    width: 100%;
+    top: 50%;
+    left: 60%;
+    display: inline-block;
+  position: absolute;
+  max-width: auto;
+    max-height: auto;
+    animation: flyAround2 4s linear infinite;
+  }
+
+
+  .Text1{
+    position: absolute;
+    font-family: Courier, monospace;    
+    backdrop-filter: blur(10px) saturate(70%);
+    font-size: 20px;
+    top: 52%;
+    left: 4%;
+    color: #03030370;
+  }
+
+@keyframes flyAround {
+    0% {
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+    25% {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0) scale(0.8);
+    }
+    50% {
+        top: 50%;
+        left: 100%;
+        transform: translate(0, -50%) scale(1);
+    }
+    75% {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0) scale(0.8);
+    }
+    100% {
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+}
+
+@keyframes flyAround2 {
+    0% {
+        top: 25%;
+        left: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+    25% {
+        top: 75%;
+        left: 75%;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    50% {
+        top: 25%;
+        left: 100%;
+        transform: translate(-100%, -50%) scale(1);
+    }
+    75% {
+        top: 75%;
+        left: 25%;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    100% {
+        top: 25%;
+        left: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+}
+@keyframes FlyAround3 {
+
+    0% {
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+    25% {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0) scale(0.8);
+    }
+    50% {
+        top: 50%;
+        left: 100%;
+        transform: translate(0, -50%) scale(1);
+    }
+    75% {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0) scale(0.8);
+    }
+    100% {
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+}
+
+@keyframes flyVariation {
+    0% {
+        transform: translate(0, -50%) rotate(0deg);
+    }
+    25% {
+        transform: translate(0, -50%) rotate(-5deg);
+    }
+    50% {
+        transform: translate(0, -50%) rotate(0deg);
+    }
+    75% {
+        transform: translate(0, -50%) rotate(5deg);
+    }
+    100% {
+        transform: translate(0, -50%) rotate(0deg);
+    }
+}
+@keyframes buzz {
+    0% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(2deg);
+    }

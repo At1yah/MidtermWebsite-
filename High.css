@@ -1,0 +1,153 @@
+body {
+    font-family: Chucara Next, serif;
+    background-color: #f4f4f4;
+    size: 200;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+min-height: auto;  
+  margin: 0px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.background {
+    display: inline-block;
+  position: 100%;
+  max-width: auto;
+    max-height: auto;
+  }
+  .Text1{
+    position: absolute;
+    font-family: Courier, monospace;
+    font-size: 25px;
+    color: #545252;
+    top: 44.3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+    .Text2{
+    position: absolute;
+    font-family:Brush Script MT, cursive;    
+    font-size: 58px;
+    color: white;
+    top: 7%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    background: -webkit-linear-gradient(#fc748f60, #ffdba820);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  .Text3{
+    position: absolute;
+    font-family:Brush Script MT, cursive;    
+    font-size: 45px;
+    color: white;
+    top: 10%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    background: -webkit-linear-gradient(#fc748f, #ffdba880);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+
+
+    .coco1 {  
+        position: absolute; 
+        top: 50%; 
+        left: 20px; 
+        width: 10px; 
+        height: auto; 
+       transform: rotate(90deg);
+        animation: animate 10s linear infinite; 
+        transform: translate(0%,-50%);
+    } 
+
+    .coco2 {  
+        position: absolute; 
+        top: 100%; 
+        left: 400px; 
+        width: 5px; 
+        height: auto; 
+       transform: rotate(90deg);
+        animation: animate 12s linear infinite; 
+    } 
+    .coco3 {  
+        position: absolute; 
+        top: 2000px; 
+        left: 200px; 
+        width: 5px; 
+        height: auto; 
+       transform: rotate(120deg);
+        animation: animate 5s linear infinite; 
+    } 
+    .coco4 {  
+        position: absolute; 
+        top: 2000px; 
+        left: 500px; 
+        width: 5px; 
+        height: auto; 
+       transform: rotate(70deg);
+        animation: animate 8s linear infinite; 
+    } 
+
+    .coco5 {  
+        position: absolute; 
+        top: 2000px; 
+        left: 600px; 
+        width: 5px; 
+        height: auto; 
+        animation: animate 15s linear infinite; 
+    } 
+
+    .coco6 {  
+        position: absolute; 
+        top: 2000px; 
+        left: 700px; 
+        width: 5px; 
+        height: auto; 
+       transform: rotate(40deg);
+        animation: animate 4s linear infinite; 
+    } 
+    .cocobig{
+        position: absolute; 
+        top: 89.8%; 
+        left: 50%; 
+        width: 100px; 
+        height: auto; 
+       transform: rotate(90deg);
+       transform: translate(-50%,-50%);
+    }
+    .coco7 {  
+        position: absolute; 
+        top: 2000px; 
+        left: 1200px; 
+        width: 5px; 
+        height: auto; 
+       transform: rotate(90deg);
+        animation: animate 8s linear infinite; 
+    } 
+
+
+    @keyframes animate { 
+        0% { 
+            top: 0; 
+        } 
+  
+        100% { 
+            top: 100%; 
+        } 
+  
+        0% { 
+            top: 0; 
+        } 
+
+
+
