@@ -98,7 +98,7 @@ min-height: auto;
   position: absolute;
   max-width: auto;
     max-height: auto;
-  animation: flyAround 7s linear infinite;
+  animation: flyAround 8s linear infinite;
 
   }
 
@@ -132,7 +132,7 @@ min-height: auto;
   position: absolute;
   max-width: auto;
     max-height: auto;
-    animation: flyAround2 3.5s linear infinite;
+    animation: flyAround2 4s linear infinite;
   }
   .Fly4{
     width: 100%;
